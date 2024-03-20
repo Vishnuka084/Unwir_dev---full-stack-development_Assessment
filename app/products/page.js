@@ -1,3 +1,5 @@
-export default function Page() {
-    return <h1>Product Page</h1>
+import ProductsList from "@/components/ProductsList";
+
+export default function Home() {
+    return <ProductsList />
 }
